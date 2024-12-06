@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+}
+
+#login-sctn {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#pwd-ipt {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#pwd-ipt.error {
+    border: 2px solid red;
+}
+
+#login-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 8px;
+    font-weight: bold;
+    text-align: left;
+    visibility: visible;
+    opacity: 1;
+    margin: 0px 64px 24px 64px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#remember-wrapper {
+    background-color: #B71C1C;
+    height: 72px;
+    width: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#remember-lbl {
+    position: relative;
+    cursor: pointer;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#remember-cb {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#remember-cb:checked {
+    accent-color: #B71C1C;
+    background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB2aWV3Qm94PScwIDAgMTYgMTYnIGZpbGw9JyNmZmYnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHBhdGggZD0nTTEyLjIwNyA0Ljc5M2ExIDEgMCAwIDEgMCAxLjQxNGwtNSA1YTEgMSAwIDAgMS0xLjQxNCAwbC0yLTJhMSAxIDAgMCAxIDEuNDE0LTEuNDE0TDYuNSA5LjA4Nmw0LjI5My00LjI5M2ExIDEgMCAwIDEgMS40MTQgMHonLz48L3N2Zz4=);
+}
+
+#anime-login-btn, #manga-login-btn {
+    width: 160px;
+    height: 72px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #B71C1C;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+}
